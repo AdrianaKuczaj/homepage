@@ -1,0 +1,17 @@
+.list {
+  overflow-x: auto;
+  margin: 0 auto;
+  width: 55%;
+  margin-bottom: 20px;
+  background-color: rgb(219, 219, 219);
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+.list__item {
+  margin: 20px;
+}
+
+.list__unordered {
+  list-style-type: "➭";
+}

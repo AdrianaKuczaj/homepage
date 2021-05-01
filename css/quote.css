@@ -1,0 +1,16 @@
+.quote {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    width: 55%;
+    border: 3px dotted rgb(185 143 110);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.quote--hidden {
+    display: none;
+}
