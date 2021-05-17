@@ -2,11 +2,11 @@
 
 ## Table of contents
 
-- [About me](about-me)
-- [Project aim](project-aim)
-- [Demo](demo)
-- [how to use website](how-to-use-website)
-- [Technologies](technologies)
+- [About me](##about-me)
+- [Project aim](##project-aim)
+- [Demo](##demo)
+- [How to use website](##how-to-use-website)
+- [Technologies](##technologies)
 
 ## About me
  My name is **Adriana Kuczaj** and I am currently in the first year of studies at the University of Economics in Wrocław. My major is IT in Business.
@@ -23,7 +23,7 @@ On the website you can read and learn more about me. Get to know my interests, f
 In the future, I plan to expand the website more and change the layout.
 
 ## Demo
-Check out how it works :)
+Check outhow it works :)
 
 https://ada-kuczaj.github.io/homepage/
 
