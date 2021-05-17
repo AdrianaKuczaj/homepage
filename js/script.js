@@ -1,15 +1,24 @@
-console.log("Witam wszystkich cieplutko! :)");
+{
+    const welcome = () => {
+        console.log("Witam wszystkich serdecznie! :)");
+    }
+    welcome();
 
-let button = document.querySelector(".js-showQuoteButton");
-let quoteAction = document.querySelector(".js-quoteAction");
+    const onQuoteShowClick = () => {
+        const button = document.querySelector(".js-showQuoteButton");
+        const hideText = "Chcesz poznać mój ulubiony cytat?";
+        const showText = "Ukryj cytat";
+        button.innerText = hideText;
+        const quoteAction = document.querySelector(".js-quoteAction");
+        quoteAction.classList.toggle("quote--hidden");
+        button.innerText = quoteAction.classList.contains("quote--hidden") ? hideText : showText;
+    };
 
-
-let showText = "Ukryj cytat";
-let hideText = "Chcesz poznać mój ulubiony cytat?";
-
-button.innerText = hideText;
-
-button.addEventListener("click", () => {
-    quoteAction.classList.toggle("quote--hidden");
-    button.innerText = quoteAction.classList.contains("quote--hidden") ? hideText : showText;
-});
+    const init = () => {
+        const button = document.querySelector(".js-showQuoteButton");
+        const hideText = "Chcesz poznać mój ulubiony cytat?";
+        button.innerText = hideText;
+        button.addEventListener("click", onQuoteShowClick);
+    };
+    init();
+}
